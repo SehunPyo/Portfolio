@@ -102,6 +102,8 @@ IDE : Visual Studio Code, Intelli J
 
 # ✏️ 개발 일지
 
+### 개발 일지
+
 ### 2022. 10. 07
 
 <img src="https://user-images.githubusercontent.com/105040121/194706210-e12e4a60-f5bd-4912-9e8a-64ad9072468f.png" width="800" height="470"/>
@@ -109,9 +111,12 @@ IDE : Visual Studio Code, Intelli J
 프로젝트 구상 및 디자인 시안 제작 후 VScode에서 HTML5와 CSS3로 웹 사이트 틀 제작.
 
 <li>
-  어려웠던 점 : 웹사이트의 구조를 이해하는 것에 어려움이 있었고, CSS를 이용해 Position이나 Display, float 등 자리 배치를 하는 것이 마음대로 되지 않아 힘이 들었다.
-    
+  어려웠던 점 : 웹사이트의 구조를 이해하는 것에 어려움이 있었고, CSS를 이용해 자리 배치를 하는 것이 마음대로 되지 않아 힘이 들었다.
 </li>
+<li>
+  해결 방법 : HTML과 컨테이너의 구조를 이해하고 Position과 Display, float 속성 등을 이용해 자리를 원하는 대로 배치하고 Margin 속성으로 세밀한 조정을 할 수 있었다.
+</li>
+
 ##
 
 ### 2023. 10. 08
