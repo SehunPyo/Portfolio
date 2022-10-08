@@ -100,9 +100,8 @@ IDE : Visual Studio Code, Intelli J
 
 ***
 
-# ✏️ 개발 일지
 
-### 개발 일지
+### ✏️ 개발 일지
 
 ### 2022. 10. 07
 
