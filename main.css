@@ -1,0 +1,161 @@
+html{
+    background-color: rgb(43, 43, 43);
+}
+/* ------------------------------------------------ */
+.wrapper{
+    text-align: left;
+    width: 30%;
+    float: left;
+    position: absolute;
+}
+
+.wrapper__img{
+    width: 200px;
+}
+/* ------------------------------------------------ */
+.head{
+    width: 99%;
+    text-align: center;
+    border-bottom: 1px solid white;
+    margin-top: 45px;
+    position: absolute;
+}
+
+.wrapper__a{
+    display: inline;
+    object-fit: cover;
+    color: white;
+    text-decoration: none;
+    font-family: 'PyeongChangPeace-Light';
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 20px;
+}
+
+.wrapper__a:hover{
+    color: goldenrod;
+}
+/* ------------------------------------------------ */
+.left__menu{
+    /* position: absolute; */
+    text-align: center;
+    width: 20%;
+    margin-top: 120px;
+    display: inline;
+    float: left;
+}
+
+.genre{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.genre__text{
+    color: white;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.genre__table{
+    background-color: rgb(134, 134, 134);
+    width: 100%;
+    height: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-collapse: separate;
+    border-spacing: 0 15px;
+}
+
+.genre__tr{
+    background-color: white;
+    height: 20px;
+}
+
+.genre__tr:hover{
+    background-color: rgb(175, 191, 205);
+}
+
+.genre__title{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'S-CoreDream-3Light';
+}
+/* ------------------------------------------------ */
+.main__middle{
+    /* position: absolute; */
+    text-align: center;
+    margin-top: 100px;
+    float: left;
+    width: 60%;
+    
+}
+
+.mid--genre{
+    font-size: 15px;
+    color: rgb(134, 134, 134);
+    font-family: 'S-CoreDream-3Light';
+}
+a{
+    text-decoration: none;
+}
+.middle--ul{
+    list-style: none;
+}
+
+.middle--list{
+    list-style: none;
+    text-align: left;
+    float: left;
+}
+
+#photo{
+    width: 25%;
+}
+
+.title{
+    margin-left: 1px;
+}
+#title{
+    color: white;
+    font-size: 18px;
+}
+
+.nick{
+    margin-left: 1px;
+}
+#nick{
+    color: rgb(150, 150, 150);
+    font-size: 14px;
+}
+/* ------------------------------------------------ */
+.user{
+    text-align: center;
+    width: 20%;
+    margin-top: 120px;
+    background-color: aliceblue;
+    float: left;
+}
+
+
+@font-face {
+    font-family: 'PyeongChangPeace-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PyeongChangPeace-Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'S-CoreDream-3Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
