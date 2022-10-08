@@ -1,5 +1,5 @@
 [![Solved.ac
-프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj={https://github.com/SehunPyo/Portfolio})](https://solved.ac/{https://github.com/SehunPyo/Portfolio})
+프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj={SehunPyo})](https://solved.ac/{SehunPyo})
 
 
 # Portfolio
