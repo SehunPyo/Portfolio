@@ -111,19 +111,12 @@ html{
     width: 60%;
 }
 
-
-
-
-
 #line1{
     margin-left: 34.8%;
     margin-top: 525px;
     position: absolute;
     width: 30%;
 }
-
-
-
 
 .mid--genre{
     font-size: 15px;
@@ -175,22 +168,51 @@ a{
 }
 
 /* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+
+/* 오른쪽 div */
+
 .user{
     text-align: center;
     width: 19.3%;
     margin-top: 150px;
     margin-left: 79.6%;
-    background-color: aliceblue;
+    background-color: rgb(134, 134, 134);
     float: left;
     position: absolute;
 }
 
+.login{
+    text-align: center;
+    width: 100%
+}
 
-#id #pw{
-    width: 
+#id{
+    font-size: 20px;
+    margin-top: 10px;
+    width: 260px;
+}
+
+#pw{
+    font-size: 20px;
+    width: 260px;
+}
+
+#login{
+    height: 30px;
+    width: 130px;
+}
+
+#signin{
+    height: 30px;
+    width: 130px;
 }
 
 
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
 
 @font-face {
     font-family: 'PyeongChangPeace-Bold';
