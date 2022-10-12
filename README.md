@@ -149,4 +149,9 @@ VScode에서 HTML5와 CSS3를 사용해 웹사이트 메인 화면 (로그인 �
 
 <img src="https://user-images.githubusercontent.com/105040121/195271517-98f679da-4276-4594-b133-5e9a8d9fb5fa.png" width="800" height="470"/>
 
-api를 이용해 카카오톡 로그인을 구현하려고 카카오톡 API의 JavaScript소스를 가져와 구현하였다. 실제로 로그인이 되는가에 대한 부분은 추후에 Intelli J에서 JSP와 Spring Boot를 이용해 개발할 때 시도해보기로 한다.
+<img src="https://user-images.githubusercontent.com/105040121/195271878-1cbafac8-6225-4270-bf02-ad8990c5d2fd.png" width="800" height="470"/>
+
+api를 이용해 카카오톡 로그인을 구현하려고 카카오톡 API의 JavaScript소스를 가져와 구현하였다.
+
+카카오톡 로그인 버튼을 클릭하면 카카오톡 로그인 화면으로 넘어가지만 아직 로그인이 실제로 되지는 않는다.
+실제로 로그인이 되는가에 대한 부분은 추후에 Intelli J에서 JSP와 Spring Boot를 이용해 개발할 때 시도해보기로 한다.
