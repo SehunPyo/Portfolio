@@ -155,3 +155,19 @@ api를 이용해 카카오톡 로그인을 구현하려고 카카오톡 API의 J
 
 카카오톡 로그인 버튼을 클릭하면 카카오톡 로그인 화면으로 넘어가지만 아직 로그인이 실제로 되지는 않는다.
 실제로 로그인이 되는가에 대한 부분은 추후에 Intelli J에서 JSP와 Spring Boot를 이용해 개발할 때 시도해보기로 한다.
+
+##
+
+### 2022. 10. 13
+
+<img src="https://user-images.githubusercontent.com/105040121/195665609-7566f8bd-90c1-4a0f-aa8a-6d1b79222413.png" width="800" height="470"/>
+
+메인화면 디자인 제작을 마무리하고 웹소캣을 활용한 실시간 채팅기능을 위한 디자인과 틀을 만들어 두었다.
+
+<img src="https://user-images.githubusercontent.com/105040121/195665869-9bfd586b-eb6c-4b34-bb3d-1a144b547161.png" width="800" height="470"/>
+
+회원가입 버튼을 클릭하면 회원가입(signin.html)으로 넘어가도록 설계하였고 정보를 입력하면 form태그를 활용해 method="get" 방식으로 회원가입란에 입력한 정보가 가입하기 버튼을 누르면 action에 입력된 사이트로 이동할 때 함께 넘어가게된다.
+
+<img src="https://user-images.githubusercontent.com/105040121/195666289-e4fa8e3f-6af7-4de1-a0a0-2155fd77a8d3.png" width="800" height="470"/>
+
+이처럼 입력한 정보가 url란에 표시되면 정보가 제대로 넘어온 것이다. get방식이 아닌 post방식으로 서버를 이동하면 정보는 넘어오되, url란에 입력한 정보가 나타나지 않는 것을 보니 개인정보나 민감한 정보를 넘길 때는 post방식으로 넘겨 보안을 하면 될 듯하다.
