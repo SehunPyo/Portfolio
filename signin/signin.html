@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signin.css">
+    <title>오늘부터 작가 "오작교"</title>
+</head>
+<body>
+    <!-- 상단바 -->
+    <header>
+        <div class="wrapper">
+            <img src="logo.png" class="wrapper__img">
+            <!-- <h1 style="display: inline;">오작교</h1>> -->
+        </div>
+        <div class="head" >
+            <a href="C:\Users\pshks\OneDrive\바탕 화면\site/index.html" class="wrapper__a">메인화면</a>
+            <a href="" class="wrapper__a">작품 추천</a>
+            <a href="" class="wrapper__a">문의/신고</a>
+            <a href="" class="wrapper__a">공지사항</a>
+            <p></p>
+        </div>
+    </header>
+
+
+    <!-- 회원가입 화면 -->
+    <div class="signin--div">
+        <form action="text.html" method="get">
+        <table class="signin--table">
+            <tr>
+                <td id="signtext" colspan="2">
+                    회원가입
+                </td>
+            </tr>
+            <tr>
+                <td id="id">
+                    아이디
+                </td>
+                <td id="id--td">
+                    <input type="text" id="idbox"  name="id" spellcheck="false" required>
+                </td>
+            </tr>
+            <tr>
+                <td id="password">
+                    비밀번호
+                </td>
+                <td id="password--td">
+                    <input type="password" id="passwordbox" name="pw" minlength="8" maxlength="12" placeholder="8-12자리" required>
+                </td>
+            </tr>
+            <tr>
+                <td id="password2">
+                    비밀번호 재확인
+                </td>
+                <td id="password--td2">
+                    <input type="password" id="passwordbox2" name="repw" minlength="8" maxlength="12" placeholder="8-12자리" required>
+                </td>
+            </tr>
+            <tr>
+                <td id="name">
+                    이름
+                </td>
+                <td id="name--td">
+                    <input type="text" id="namebox" name="name" maxlength="5" spellcheck="false" required>
+                </td>
+            </tr>
+            <tr>
+                <td id="age">
+                    생년월일
+                </td>
+                <td id="age--td">
+                    <input type="text" id="agebox" name="age" maxlength="10" spellcheck="false" placeholder="2022-01-01 형식으로 입력해주세요.">
+                </td>
+            </tr>
+            <tr>
+                <td id="gender">
+                    성별
+                </td>
+                <td id="gender--td">
+                    <input type="radio" id="genderbox" name="male">
+                    <label for="male">남</label>
+                    &nbsp;&nbsp;
+                    <input type="radio" id="genderbox" name="female">
+                    <label for="male">여</label>
+                </td>
+            </tr>
+            <tr>
+                <td id="number">
+                    휴대전화
+                </td>
+                <td id="number--td">
+                    <input type="tel" id="numberbox" name="num" maxlength="11" spellcheck="false" placeholder='"-"를 제거하고 입력해주세요.'>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" id="signbtn">
+                        <input type="submit" value="가입하기" style="width: 100%; height: 30px">
+                </td>
+            </tr>
+        </table>
+        </form>
+    </div>  
+</body>
+</html>

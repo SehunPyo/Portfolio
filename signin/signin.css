@@ -1,0 +1,219 @@
+html{
+    background-color: rgb(43, 43, 43);
+}
+
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+
+.wrapper{
+    text-align: left;
+    width: 30%;
+    float: left;
+    position: absolute;
+}
+
+.wrapper__img{
+    width: 200px;
+}
+
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+
+.head{
+    width: 99%;
+    text-align: center;
+    border-bottom: 1px solid white;
+    margin-top: 45px;
+    position: absolute;
+}
+
+.wrapper__a{
+    display: inline;
+    object-fit: cover;
+    color: white;
+    text-decoration: none;
+    font-family: 'PyeongChangPeace-Light';
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 20px;
+}
+
+.wrapper__a:hover{
+    color: goldenrod;
+}
+
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+
+.signin--div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 97vh;
+}
+
+.signin--table{
+    text-align: center;
+    width: 100%;
+    border: 1px solid white;
+}
+/* ------------------------------------------------ */
+#signtext{
+    color: white;
+    text-align: center;
+    border-bottom: 1px solid white;
+    background-color: rgb(92, 92, 92);
+    font-size: 20px;
+}
+/* ------------------------------------------------ */
+#id{
+    color: white;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    background-color: rgb(148, 148, 148);
+}
+
+#id--td{
+    text-align: left;
+    border-bottom: 1px solid white;
+}
+
+#idbox{
+    font-size: 15px;
+    width: 98%;
+    height: 20px;
+    outline: none;
+    color: aliceblue;
+    background-color: rgb(43, 43, 43);
+    border: none;
+}
+/* ------------------------------------------------ */
+#password{
+    color: white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    background-color: rgb(148, 148, 148);
+}
+
+#passwordbox{
+    font-size: 15px;
+    width: 98%;
+    height: 20px;
+    outline: none;
+    color: aliceblue;
+    background-color: rgb(43, 43, 43);
+    border: none;
+}
+
+#password--td{
+    text-align: left;
+    border-bottom: 1px solid white;
+}
+/* ------------------------------------------------ */
+#password2{
+    color: white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    background-color: rgb(148, 148, 148);
+}
+
+#passwordbox2{
+    font-size: 15px;
+    width: 98%;
+    height: 20px;
+    outline: none;
+    color: aliceblue;
+    background-color: rgb(43, 43, 43);
+    border: none;
+}
+
+#password--td2{
+    text-align: left;
+    border-bottom: 1px solid white;
+}
+/* ------------------------------------------------ */
+#name{
+    color: white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    background-color: rgb(148, 148, 148);
+}
+
+#namebox{
+    font-size: 15px;
+    width: 98%;
+    height: 20px;
+    outline: none;
+    color: aliceblue;
+    background-color: rgb(43, 43, 43);
+    border: none;
+}
+
+#name--td{
+    text-align: left;
+    border-bottom: 1px solid white;
+}
+/* ------------------------------------------------ */
+#age{
+    color: white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    background-color: rgb(148, 148, 148);
+}
+
+#agebox{
+    font-size: 15px;
+    width: 98%;
+    height: 20px;
+    outline: none;
+    color: aliceblue;
+    background-color: rgb(43, 43, 43);
+    border: none;
+}
+
+#age--td{
+    text-align: left;
+    border-bottom: 1px solid white;
+}
+/* ------------------------------------------------ */
+#gender{
+    color: white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    background-color: rgb(148, 148, 148);
+}
+
+#gender--td{
+    color:  rgb(148, 148, 148);
+    text-align: left;
+    border-bottom: 1px solid white;
+}
+/* ------------------------------------------------ */
+#number{
+    color: white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    background-color: rgb(148, 148, 148);
+}
+
+#numberbox{
+    font-size: 15px;
+    width: 98%;
+    height: 20px;
+    outline: none;
+    color: aliceblue;
+    background-color: rgb(43, 43, 43);
+    border: none;
+}
+
+#number--td{
+    text-align: left;
+    border-bottom: 1px solid white;
+}
+/* ------------------------------------------------ */
+#signbtn{
+    background-color: rgb(92, 92, 92);
+}

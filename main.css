@@ -1,7 +1,11 @@
 html{
     background-color: rgb(43, 43, 43);
 }
+
 /* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+
 .wrapper{
     text-align: left;
     width: 30%;
@@ -12,7 +16,11 @@ html{
 .wrapper__img{
     width: 200px;
 }
+
 /* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+
 .head{
     width: 99%;
     text-align: center;
@@ -35,7 +43,11 @@ html{
 .wrapper__a:hover{
     color: goldenrod;
 }
+
 /* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+
 .left__menu{
     /* position: absolute; */
     text-align: center;
@@ -43,6 +55,7 @@ html{
     margin-top: 120px;
     display: inline;
     float: left;
+    box-shadow: 1px 1px 20px black;
 }
 
 .genre{
@@ -53,6 +66,7 @@ html{
 
 .genre__text{
     color: white;
+    background-color: rgb(92, 92, 92);
     border-top: 1px solid white;
     border-bottom: 1px solid white;
 }
@@ -82,7 +96,11 @@ html{
     text-decoration: none;
     font-family: 'S-CoreDream-3Light';
 }
+
 /* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+
 .main__middle{
     /* position: absolute; */
     text-align: center;
@@ -103,6 +121,7 @@ html{
     margin-top: 450px;
     float: left;
     width: 60%;
+    
 }
 
 .middle-div2{
@@ -111,9 +130,24 @@ html{
     width: 60%;
 }
 
+.main__middle3{
+    /* position: absolute; */
+    text-align: center;
+    margin-top: 450px;
+    float: left;
+    width: 60%;
+}
+
 #line1{
     margin-left: 34.8%;
     margin-top: 525px;
+    position: absolute;
+    width: 30%;
+}
+
+#line2{
+    margin-left: 34.8%;
+    margin-top: 980px;
     position: absolute;
     width: 30%;
 }
@@ -139,12 +173,18 @@ a{
     float: left;
     padding-left: 1.6%;
     display: inline;
-    
 }
 
 #photo{
     width: 100%;
     box-shadow: 1px 1px 20px black;
+}
+
+.photo:hover{
+    
+    width: 103%;
+    margin-left: -3px;
+    transition: 0.3s;
 }
 
 .title{
@@ -176,11 +216,12 @@ a{
 .user{
     text-align: center;
     width: 19.3%;
-    margin-top: 150px;
+    margin-top: 130px;
     margin-left: 79.6%;
     background-color: rgb(134, 134, 134);
     float: left;
     position: absolute;
+    box-shadow: 1px 1px 20px black;
 }
 
 .login{
@@ -191,24 +232,65 @@ a{
 #id{
     font-size: 20px;
     margin-top: 10px;
-    width: 260px;
+    width: 94%;
+    outline: none;
 }
 
 #pw{
     font-size: 20px;
-    width: 260px;
+    width: 94%;
+    outline: none;
 }
 
 #login{
     height: 30px;
-    width: 130px;
+    width: 47%;
 }
 
 #signin{
     height: 30px;
-    width: 130px;
+    width: 47%;
 }
 
+#kakaologin{
+    width: 94%;
+    height: 40px;
+}
+
+.contents{
+    margin-top: -20px;
+    
+
+}
+
+#contents01{
+    width: 19.3%;
+    color: white;
+    text-align: center;
+    background-color: rgb(92, 92, 92);
+}
+
+.chatbox{
+    width: 98%;
+    height: 300px;
+    border: none;
+    resize: none;
+    outline: none;
+}
+
+
+.chating{
+    width: 98%;
+    height: 37px;
+    border: none;
+    resize: none;
+    outline: none;
+}
+
+.chatbutton{
+    width: 98%;
+    padding: 2px;
+}
 
 /* ------------------------------------------------ */
 /* ------------------------------------------------ */
